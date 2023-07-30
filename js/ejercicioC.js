@@ -8,6 +8,6 @@ for(i=1; i<=cantidadDeGatos ; i++){
     for(j=1;  j<=cantidadDePasos; j++){
         pasos += "🐾";
     }
-    console.log("Gato #" + i + ": 🐈 " + pasos);
+    console.log("Gato #" + i + ": 🐈 " + ((i%2 ==0 )?"⬛ ":" " ) +  pasos);
     
 }
